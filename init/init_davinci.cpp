@@ -90,7 +90,7 @@ void vendor_load_properties()
             set_ro_product_prop(source, "model", "Redmi K20");
         }
         property_override("ro.build.fingerprint",
-                              "Xiaomi/davinci/davinci:10/QKQ1.190825.002/V11.0.6.0.QFJCNXM:user/release-keys");
+                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
         property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V11.0.6.0.QFJCNXM release-keys");
         property_override("ro.boot.product.hardware.sku", "davinci");
     }
@@ -105,7 +105,7 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "davinciin-user 10 QKQ1.190825.002 V11.0.2.0.QFJINXM release-keys");
         property_override("ro.build.fingerprint", 
-                              "Xiaomi/davinciin/davinciin:10/QKQ1.190825.002/V11.0.2.0.QFJINXM:user/release-keys");
+                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
         property_override("ro.product.mod_device", "davinciin_in_global");
         property_override("ro.com.google.clientidbase", "android-xiaomi-rev1");
     }
@@ -120,7 +120,7 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V12.0.0.11.QFJMIXM release-keys");
         property_override("ro.build.fingerprint",
-                              "Xiaomi/davinci/davinci:10/QKQ1.190825.002/V12.0.0.11.QFJMIXM:user/release-keys");
+                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
         property_override("ro.product.mod_device", "davinci_global");
         property_override("ro.boot.product.hardware.sku", "davinci");
         property_override("ro.com.google.clientidbase", "android-xiaomi");
